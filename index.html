@@ -62,9 +62,40 @@
           <h1 class="hero-h">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button">Order Service</button>
         </div>
-        <div class="modal is-open">
+        <div class="modal">
           <div class="modal-content">
-            <p>Вміст модального вікна тут...</p>
+            <div class="close">
+              <svg class="icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </div>
+            <p class="form-p">Leave your contacts and we will call you back</p>
+            <form class="form">
+              <label class="input-label"
+                >Name<input type="text" name="name" 
+              /></label>
+              <label class="input-label"
+                >Phone<input type="tel" name="phone"
+              /></label>
+              <label class="input-label"
+                >Email<input type="email" name="email"
+              /></label>
+              <label class="textarea-label"
+                >Comment<textarea
+                  class="comment"
+                  name="comment"
+                  placeholder="Text input"
+                  rows="7"></textarea>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" id="checkbox" name="accept" value="accept" />
+                <span class="checkbox-no-click">
+                </span>    
+                I accept the terms and conditions of the
+                <a class="privacy-policy" href="">Privacy Policy</a>
+              </label>
+              <button class="send-button" type="submit">Send</button>
+            </form>
           </div>
         </div>
       </section>
