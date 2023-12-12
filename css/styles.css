@@ -657,7 +657,7 @@ input {
 .input-div {
   margin-bottom: 8px;
 }
-.input-div:last-child {
+.input-div.email-div {
   margin-bottom: 16px;
 }
 
